@@ -1,0 +1,295 @@
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#connectedWallet {
+  padding: 5px 9px;
+  font-size: 100%;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  }
+  
+.connectButton {
+    display: flex;
+    width: 15%;
+  padding: 3px 9px;
+  cursor: pointer;
+  }
+  
+  #mintBtn {
+    visibility: visible;
+    padding: 2px 2px;
+    width: 40px;
+    height: 20px;
+  }
+
+  .header{
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    font-size: 80%;
+  }
+
+  .ian{
+   
+    display: flex;
+
+    
+  }
+
+  .claym{
+    margin-left: 40%;
+    width: 55%;
+  }
+
+  .gallery{
+    margin-left: 35%;
+    width: 40%;
+  }
+
+
+  .coNnecTid{
+    display: flex;
+    width: 35%;
+  }
+
+  .miNtTiD{
+    display: flex;
+    width: 20%;
+    display: flex;
+    margin-left: auto;
+    padding: 30% 20px;
+    position: relative center;
+  }
+
+  .thread1{
+    width: 33.5%;
+    padding: 3%;
+    margin-left: 5%;
+    position: absolute;
+  }
+
+  .thread2{
+    width: 50%;
+    display: flex;
+    padding: 10%;
+    margin-left: auto;
+
+  }
+
+  .galgal{
+    position: relative;
+  }
+
+  .miNtTiDCNt{
+    display: flex;
+    width: 5%;
+    margin-right: auto;
+
+  }
+
+  .mintedCount{
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+  }
+  .miNtTiD2{
+    display: flex;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:8%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .miNtTiD3{
+    display: flex;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:8%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .miNtTiD4{
+    display: flex;
+    width: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:8%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .miNtTiD5{
+    display: flex;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .branch{
+    width: 100%;
+    margin-left: auto;
+    margin-right: 100%;
+    margin-bottom: -6px;
+  }
+
+
+.claim1{
+  padding: 5% ;
+    display: inline-block;
+    text-align: center;
+    color: #433e22;
+    
+}
+
+.textEnter{
+  background-color:#83713f;
+  border: 2px solid #433e22;
+  border-radius: 6px;
+}
+
+.claimingTImee{
+  cursor: pointer;
+  display: flex;
+  width: 15%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+  .pisss{
+    cursor: pointer;
+    display: flex;
+    padding: 5% 20px;
+    width: 25%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+  }
+
+
+  .pisss-2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+
+  }
+  .pisss-3{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    padding:20%;
+  }
+
+  .pisss-c{
+    position: relative;
+  }
+
+  .iframe_handle{
+    position:absolute;
+    width:0;
+    height:0;
+    border:0;
+
+  }
+
+  .item{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+
+  }
+
+  .itemImg{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .claimbtn{
+    width:65%;
+    margin-left:17.5%;
+    margin-right:17.5%;
+    color: #433e22;
+    background-color:#83713f;
+    border-radius: 12px;
+    border: none;
+  }
+
+  .claimbtnD{
+    width:65%;
+    margin-left:17.5%;
+    margin-right:17.5%;
+    color: #433e22;
+    background-color:#83713f;
+    border-radius: 12px;
+    border: none;
+    pointer-events: none;
+  }
+
+
+
+  .itemDiv{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+  }
+
+  .OwnerStatus{
+    padding: 5% 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+
